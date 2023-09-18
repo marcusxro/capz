@@ -1,0 +1,445 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,400;1,600;1,900&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.Home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+padding: 1% 5%;
+}
+.leftText {
+  text-align: center;
+}
+
+.leftText span {
+  color: blue;
+  text-decoration: underline;
+}
+.botSignUp span {
+  color: blue;
+  text-decoration: underline;
+}
+
+.leftText span:hover {
+cursor: pointer;
+color: red;
+}
+.botSignUp span:hover {
+  cursor: pointer;
+  color: red;
+  }
+.leftFirst {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signContainer {
+  display: flex;
+  width: 100%;
+  display: inline-block;
+  top: -50%;
+  bottom: 0;
+}
+
+.right {
+  width: 100%;
+  height: 100%;
+}
+
+.right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.SchoolLogo {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.SchoolLogo img {
+  height: 100%;
+  width: 100%;
+}
+.signInForm {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  gap: 3px;
+  padding: 30px;
+}
+
+.Container {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  background-color: aliceblue;
+}
+h1 {
+  text-align: left;
+  width: 100%;
+}
+input {
+  height: 40px;
+  width: 100%;
+  outline: none;
+  border: 1px solid gray;
+  padding-inline: 5px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+
+label{ 
+  width: 100%;
+}
+
+
+.fb{
+  height: 25px;
+  width: 25px;
+  color: blue;
+  transition: 0.3s;
+}
+.gl  {
+  height: 25px;
+  color: blue;
+  transition: 0.3s;
+}
+
+.fb:hover {
+  cursor: pointer;
+  color: red;
+}
+.gl:hover {
+  cursor: pointer;
+  color: red;
+}
+legend {
+  display: inline-block;
+  margin-top:20px;
+  text-align: left;
+  color: black;
+  margin-left: 5px;
+  background-color: aliceblue;
+  padding-bottom: 3px;
+}
+
+.SignInBtn {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  height: 40px; 
+}
+.chekcs {
+  display: flex;
+  gap: 10px;
+}
+.checkBox {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  height: 30px;
+  gap: 10px;
+  width: 100%;
+}
+Link {
+  border: 1px solid red;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 25px;
+}
+.signContainer {
+  border-radius: 5px;  
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1px solid black;
+  padding: 5px 0px;
+}
+
+@media only screen and (max-width: 1135px) {
+  .checkBox {
+    flex-direction: column;
+    height: auto;
+  }
+}
+
+.signUpForm {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+
+
+.signUpbtn button {
+  all: unset;
+  width: 100%;
+  background-color: blue;
+  color: white;
+  height: 40px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.showPass {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.greet {
+  margin-bottom: 20px;
+}
+
+.pwCon {
+  display: flex;
+  gap:5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.pws {
+  width: 100%;
+}
+
+.SignUpPageCon {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.leftSideOfSIgnUp {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aliceblue;
+  padding-inline: 5%;
+  flex-direction: column;
+}
+.firstLeft {
+  margin-top: 50px;
+  height: 60px;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.textCon{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.line {
+  height: 10px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.progress {
+  height: inherit;
+  width: 0%;
+  border-radius: 10px;
+  background-color: green;
+}
+.textCon {
+  font-weight: bold;
+}
+.secLeft {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.RightSideOfSIgnUp {
+  width: 100%;
+  padding: 20px;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxCon {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.boxes {
+  background-color: wheat;
+  color: white;
+  border-radius: 5px;
+  height: 50px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+.leftBot {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.authServices {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 10px;
+  padding-inline: 5%;
+  max-width: 550px;
+  align-self: center;
+  align-content: center;
+}
+
+.google, .facebook {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: blue;
+  padding: 6px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.NotFoundCon {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.notFound {
+  text-align: center;
+}
+
+.goHome span {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1080px) {
+  .right, .RightSideOfSIgnUp{ 
+    display: none;
+  }
+  .left {
+    width: 100%;
+  }
+  
+}
+.conParent {
+  padding-inline: 10px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+.conss {
+  width: 100%;
+  border: 1px solid black;
+  padding-inline: 5px;
+  padding: 10px;
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.actCon {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formSubmit {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.outercon {
+  padding-inline: 10px;
+}
+.conss button, .sub, .logOut{
+  all: unset;
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.authDetails {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.btnCon {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+  max-width: 500px;
+}
+
+@media only screen and (max-width: 800px) {
+  .authDetails {
+    flex-direction: column;
+  }
+}
